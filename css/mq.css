@@ -1,0 +1,548 @@
+/* Custom media queries for smooth automation */
+/* ============ by Madddy™ ============ */
+
+
+/* ••••••••••• IMPORTANT •••••••••••• */
+@media (max-width: 767px){
+    #tatnav_collapse_1 {
+        background-color: rgba(255,255,255,0.9);
+        border: none;
+        position: relative;
+    }
+
+    .tatevnav {height: 51px;}
+
+    ul.tatev_main_menu li {float: none;}
+
+    .upper_linx_area {float: left !important; margin-top: 0;}
+
+
+}
+
+
+
+/* ---- */
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navbar & header area ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+@media (min-width: 1300px){
+    .h_banner {top: 285px;}
+}
+@media (min-width: 1600px){
+    .h_banner {top: 333px;}
+}
+@media (min-width: 1900px){
+    .h_banner {top: 400px;}
+}
+@media (min-width: 2500px){
+    .h_banner {top: 515px;}
+    .pagerz {left: 48%; bottom: 40%;}
+}
+
+
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1199px){
+    .pagerz {bottom: 29%;}
+}
+@media (max-width: 1135px){
+    .h_banner {top: 230px;}
+}
+@media (max-width: 1035px){
+    .h_banner {top: 200px;}
+}
+@media (max-width: 991px){
+    .tatbrand {margin-left: -90px !important;}
+    .upper_linx_area {margin-top: -3%; left: 12%;}
+
+    .pagerz {bottom: 33%;}
+    .h_banner {top: 170px;}
+
+}
+@media (max-width: 900px){
+    .tatbrand {margin-left: -40px !important;}
+    .mainlogo {width: 75%; margin-top: 5%;}
+    .upper_linx_area {margin-top: -3%; left: 12%;}
+}
+@media (max-width: 840px){
+    .upper_linx_area {margin-top: -3%; left: 8%;}
+}
+@media (max-width: 820px){
+    .h_banner h4 {font-size: 1.5em;}
+    .h_banner h2 {font-size: 3em;}
+
+    .h_banner {top: 120px;}
+    .pagerz {bottom: 38%;}
+}
+@media (max-width: 800px){
+    .tatbrand {margin-left: -25px !important;}
+    .mainlogo {width: 70%; margin-top: 6%;}
+    .upper_linx_area {margin-top: -3%; left: 6%;}
+}
+@media (max-width: 767px){
+    .tatbrand {margin-left: 0 !important;}
+    .cutlogo {width: 65%; margin-top: -18%;}
+    .upper_linx_area {margin-top: 0; left: -2%;}
+
+    .h_banner {left: 21%;}
+
+    .pagerz {display: none;}
+    .carousel-control.left, .carousel-control.right {display: none;}
+}
+@media (max-width: 700px){
+    .h_banner {top: 100px;}
+}
+@media (max-width: 650px){
+    .h_banner {top: 70px; left: 18%;}
+}
+@media (max-width: 585px){
+    .infostripe {display: none;}
+
+    .h_banner {top: 120px; left: 18%;}
+}
+@media (max-width: 550px){
+    .h_banner {left: 14%;}
+}
+@media (max-width: 510px){
+    .h_banner {left: 11%;}
+}
+@media (max-width: 460px){
+    .h_banner {top: 100px; left: 7%;}
+}
+@media (max-width: 440px){
+    .h_banner {top: 100px; left: 4%;}
+}
+@media (max-width: 414px){
+    .h_banner h4 {font-size: 1.3em;}
+    .h_banner h2 {font-size: 2.7em;}
+    .h_banner {top: 80px; left: 8%;}
+}
+@media (max-width: 400px){
+    .h_banner {left: 6%;}
+}
+@media (max-width: 375px){
+    .h_banner {left: 4%;}
+}
+@media (max-width: 366px){
+    .h_banner h4 {font-size: 1.1em;}
+    .h_banner h2 {font-size: 2.4em;}
+    .h_banner {left: 11%;}
+}
+@media (max-width: 340px){
+    .h_banner h4 {font-size: 1.1em;}
+    .h_banner h2 {font-size: 2.4em;}
+    .h_banner {left: 8%;}
+}
+@media (max-width: 320px){
+    .h_banner h4 {font-size: 1em;}
+    .h_banner h2 {font-size: 2.3em;}
+    .h_banner {top: 60px; left: 9%;}
+}
+
+
+
+
+/* ---- */
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Activity (Option) slider ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1199px){
+    img.tatslide {width: 315px;}
+    .option_slide {left: 0;}
+}
+@media (max-width: 991px){
+    img.tatslide {width: 230px; height: 125px;}
+    .option_slide {left: 2%;}
+    h2.tat_title {font-size: 2.1em; padding-right: 5px;}
+}
+@media (max-width: 780px){
+    img.tatslide {width: 325px; height: 175px;}
+}
+@media (max-width: 690px){
+    h2.tat_title {font-size: 1.8em;}
+    img.tatslide {width: 300px; height: 160px;}
+}
+@media (max-width: 640px){
+    img.tatslide {width: 260px; height: 140px;}
+}
+@media (max-width: 603px){
+    .option_slide {left: 4%;}
+}
+@media (max-width: 580px){
+    img.tatslide {width: 95%; height: 240px;}
+}
+
+
+
+@media (max-width: 375px){
+    img.tatslide {height: 195px;}
+}
+@media (max-width: 320px){
+    img.tatslide {height: 155px;}
+}
+
+
+
+/* ---- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 6-box area ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1199px){
+    .grid figure img {height: 320px;}
+}
+@media (max-width: 991px){
+    .grid figure img {height: 250px;}
+    .grid figure h2 {font-size: 2.4em;}
+    figure.effect-sadie p {font-size: 12px; bottom: 45px;}
+}
+@media (max-width: 767px){
+    .grid figure {width: 85%;}
+
+    .grid figure img {height: 395px;}
+    .grid figure h2 {font-size: 2.8em;}
+    figure.effect-sadie p {font-size: 14px; bottom: 85px;}
+
+    .sixbox {left: 6%;}
+}
+@media (max-width: 603px){
+    .grid figure img {height: 345px;}
+}
+@media (max-width: 590px){
+    .grid figure img {height: 335px;}
+    .sixbox {left: 7%;}
+}
+@media (max-width: 566px){
+    .grid figure img {height: 315px;}
+}
+@media (max-width: 525px){
+    .grid figure img {height: 300px;}
+
+    .grid figure h2 {font-size: 2.4em;}
+    figure.effect-sadie p {font-size: 12px; bottom: 55px;}
+}
+@media (max-width: 480px){
+    .grid figure img {height: 270px;}
+}
+@media (max-width: 444px){
+    .grid figure img {height: 250px;}
+}
+@media (max-width: 414px){
+    .grid figure img {height: 230px;}
+
+    .grid figure h2 {font-size: 2.2em;}
+    figure.effect-sadie p {font-size: 11px; bottom: 25px;}
+}
+@media (max-width: 400px){
+    .grid figure img {height: 220px;}
+}
+@media (max-width: 370px){
+    .grid figure img {height: 210px;}
+
+    .grid figure h2 {font-size: 2.2em;}
+    figure.effect-sadie p {font-size: 10px; bottom: 12px;}
+}
+@media (max-width: 340px){
+    .grid figure img {height: 190px;}
+
+    .grid figure h2 {font-size: 2em;}
+    figure.effect-sadie p {font-size: 10px; bottom: 8px;}
+}
+
+
+/* ---- */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Partnerline area ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+@media (min-width: 1600px){
+    .partnerline_area {margin-top: -0.7%;}
+}
+@media (min-width: 2500px){
+    .partnerline_area {margin-top: -0.5%;}
+}
+
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1199px){
+    ul.partnerz {margin-top: 8%;}
+    img.partnerlogo {width: 75%;}
+    ul.partnerz li a {padding-right: 20px;}
+}
+@media (max-width: 991px){
+    ul.partnerz {margin-top: 10%; padding: 0;}
+    img.partnerlogo {width: 69%;}
+    ul.partnerz li {width: 25%;}
+    ul.partnerz li a {padding-right: 10px;}
+}
+@media (max-width: 740px){
+    ul.partnerz {margin-top: 15.55%;}
+}
+@media (max-width: 510px){
+    ul.partnerz {margin-top: 19%;}
+}
+@media (max-width: 470px){
+    img.partnerlogo {width: 89%;}
+    ul.partnerz {margin-top: 8%;}
+    .partnerline_area {height: 130px;}
+}
+@media (max-width: 335px){
+    img.partnerlogo {width: 84%;}
+    ul.partnerz {margin-top: 12%;}
+}
+
+
+
+
+/* ---- */
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Testimonials area ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+@media (min-width: 1900px){
+    .testimonial {background-position: center -270px;}
+    .testimonial_holder {right: -3%; width: 28%;}
+}
+@media (min-width: 2500px){
+    .testimonial {background-position: center -370px;}
+}
+
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1199px){
+    .testimonial {background-position: center -145px;}
+}
+@media (max-width: 991px){
+    .testimonial {background-position: center -125px;}
+}
+@media (max-width: 850px){
+    .testimonial {background-position: center -70px;}
+}
+@media (max-width: 767px){
+    p.testimonial_itself {font-size: 1em;}
+    h4.testimonial_author {font-size: 0.9em;}
+}
+
+@media (max-width: 745px){
+    .testimonial {background-position: center -39px;}
+}
+@media (max-width: 700px){
+    .testimonial {background-position: center -20px;}
+}
+@media (max-width: 680px){
+    .testimonial {background-position: center -10px;}
+}
+@media (max-width: 655px){
+    .testimonial {background-position: center 0;}
+}
+@media (max-width: 555px){
+    p.testimonial_itself {font-size: 0.9em;}
+    h4.testimonial_author {font-size: 0.8em;}
+}
+@media (max-width: 490px){
+    .testimonial_holder {top: 18%;}
+}
+@media (max-width: 414px){
+    .testimonial_holder {top: 21%; right: 1%; width: 52%;}
+}
+@media (max-width: 360px){
+    .testimonial_holder {top: 17%; right: 1%; width: 62%;}
+}
+
+
+
+/* ---- */
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer & Co. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1199px){
+    h5.footer_epilogue {left: 20%; margin-top: -7%;}
+}
+@media (max-width: 991px){
+    h5.footer_epilogue {left: 0; margin-top: 1.7%;}
+}
+@media (max-width: 767px){
+    .socialize {right: 25%;}
+    .minilogo {left: 16%;}
+}
+@media (max-width: 603px){
+
+}
+@media (max-width: 560px){
+    .minilogo {left: 12%;}
+}
+@media (max-width: 525px){
+    .minilogo {left: 10%;}
+}
+@media (max-width: 500px){
+    .minilogo {left: 6%;}
+}
+@media (max-width: 480px){
+    .minilogo {left: 4%;}
+}
+@media (max-width: 440px){
+    .minilogo {left: 2%;}
+    img.mini_logo {width: 15%;}
+    h5.footer_epilogue {margin-top: -0.3%;}
+    .socialize {right: 16%;}
+}
+@media (max-width: 398px){
+    h5.footer_epilogue {font-size: 0.8em; margin-top: -0.6%;}
+    img.mini_logo {width: 12%;}
+
+    ul.socialz i.fa {font-size: 1.5em;}
+}
+@media (max-width: 345px){
+    h5.footer_epilogue {font-size: 0.7em; margin-top: -1%;}
+    img.mini_logo {width: 10%;}
+
+    ul.socialz i.fa {font-size: 1.2em;}
+
+    h4.tatfooter_ttl {font-size: 1em;}
+
+}
+@media (max-width: 320px){
+    .socialize {right: 10%;}
+
+    ul.tatfootlinx_5 {margin-top: -500%;}
+}
+
+
+
+/* ---- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Inner (What to See) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1199px){
+    .inner_head_ttl {margin-top: -17%;}
+    button.event_details {left: 6.5%;}
+}
+@media (max-width: 1020px){
+    .events_area {right: 3%;}
+}
+@media (max-width: 991px){
+    .inner_head_ttl {margin-top: -22%; left: -12%;}
+    button.event_details {left: 8.5%;}
+
+    .sightseeings_area {left: -5%;}
+    img.activity_image {height: 245px;}
+}
+@media (max-width: 916px){
+    .inner_head_ttl {left: -5%;}
+}
+@media (max-width: 900px){
+    .events_area {right: 5%;}
+}
+@media (max-width: 880px){
+    .events_area {right: 8%;}
+}
+@media (max-width: 820px){
+    .event_holder {height: 270px;}
+    img.eventposter {height: 270px;}
+    button.event_details {font-size: 1em; bottom: 3%; left: 6%;}
+
+    .sightseeings_area {left: -1%;}
+
+    .events_area {right: 5%;}
+}
+@media (max-width: 815px){
+    .inner_head_ttl {left: 0;}
+}
+
+@media (max-width: 767px){
+    .sightseeings_area {left: 0;}
+    img.activity_image {height: 385px;}
+
+    .events_area {right: 0;}
+    img.eventposter {height: 355px;}
+    button.event_details {font-size: 1.7em; bottom: -29%; left: 3%;}
+
+    h4.travel_ttl {margin-top: 120px;}
+}
+@media (max-width: 760px){
+    .inner_header_pic {height: 260px;}
+    .inner_head_ttl {margin-top: -20%; left: 5%;}
+}
+@media (max-width: 715px){
+    img.activity_image {height: 360px;}
+}
+@media (max-width: 665px){
+    .inner_header_pic {height: 215px;}
+    .inner_head_ttl {margin-top: -20%; left: 5%; font-size: 4em;}
+
+    img.activity_image {height: 340px;}
+}
+@media (max-width: 615px){
+    img.activity_image {height: 310px;}
+}
+@media (max-width: 603px){
+    button.event_details {left: 3.8%;}
+}
+@media (max-width: 585px){
+    .inner_header_pic {height: 185px;}
+    .inner_head_ttl {margin-top: -17%; left: 5%; font-size: 3.5em;}
+
+    img.activity_image {height: 280px;}
+
+}
+@media (max-width: 520px){
+    button.event_details {left: 4.2%;}
+
+    .inner_header_pic {height: 175px;}
+    .inner_head_ttl {margin-top: -19%; left: 5%; font-size: 3em;}
+}
+@media (max-width: 470px){
+    button.event_details {left: 5%;}
+
+    img.activity_image {height: 240px;}
+
+}
+@media (max-width: 440px){
+    .inner_header_pic {height: 165px;}
+    .inner_head_ttl {margin-top: -19%; left: 5%; font-size: 2.9em;}
+}
+@media (max-width: 414px){
+    .inner_header_pic {height: 165px;}
+    .inner_head_ttl {margin-top: -21%; left: 5%; font-size: 2.9em;}
+
+    img.activity_image {height: 220px;}
+
+}
+@media (max-width: 375px){
+    .inner_header_pic {height: 165px;}
+    .inner_head_ttl {margin-top: -22%; left: 5%; font-size: 2.6em;}
+
+    img.activity_image {height: 200px;}
+
+}
+@media (max-width: 350px){
+    .inner_header_pic {height: 155px;}
+    .inner_head_ttl {margin-top: -25%; left: 5%; font-size: 2.4em;}
+
+    img.activity_image {height: 175px;}
+
+    img.eventposter {height: 335px;}
+    button.event_details {bottom: -22%;}
+
+}
+@media (max-width: 330px){
+    img.eventposter {height: 325px;}
+    button.event_details {bottom: -17%; left: 2.5%;}
+
+}
+@media (max-width: 320px){
+    img.activity_image {height: 150px;}
+
+}
